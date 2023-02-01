@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration System</title>
+</head>
+<body style="background-color: rgb(252, 243, 244);">
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,;text-align: center;"><u>Employee Registration System</u></h1>
+    <form action="abc.php" style="font-family: Verdana;font-size: small;">
+        <br><br>
+        <b>Name:</b>   
+        <input type="text" name="fname" value="Ravi">
+        <br>
+        <br>
+        <b>Last Name:</b>
+        <input type="text" name="lname" value="Sharma">
+        <br>
+        <br>
+        <b>DOB:</b>
+        <input type="date" name="dob" id="dob">
+        &nbsp;&nbsp;&nbsp;<b>ID No:</b>
+        <input type="text" min="1">
+        &NonBreakingSpace;&nbsp;&nbsp;<b>Passport No:</b>
+        <input type="text" min="1">
+        <br><br>
+        <b>Marital Status:</b>
+        <input type="radio" name="mstatus" id="married" checked> <i>Married</i>
+        <input type="radio" name="mstatus" id="unmarried"><i> Unmarried</i>
+        &nbsp;&nbsp;&nbsp;<b>Gender:</b>
+        <input type="radio" name="gender" id="male"><i> Male</i>
+        <input type="radio" name="gender" id="female"><i> Female</i>
+        <input type="radio" name="gender" id="others"><i> Others</i>
+        <br><br>
+        <b>Address:</b>
+        <textarea name="address" id="address" cols="30" rows="5">Address</textarea>
+        &nbsp;&nbsp;<b>Residential Address:</b>
+        <textarea name="residential" id="residential" cols="30" rows="5">Residential Address</textarea>
+        &nbsp;&nbsp;<b>Telephone:</b>
+        <input type="tel" name="tel" id="tel">
+        <br><br>
+        <b>Occupation:</b>
+        <input type="text">
+        &nbsp;&nbsp;<b>Date of Commencement:</b>
+        <input type="date" name="" id="">
+        &nbsp;&nbsp;<b>Monthly Income:</b>
+        <input type="number" name="income" id="income">
+        <br><br><br>
+        <input type="button" value="Submit" style="height: 40%;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Reset" style="height: 40%;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="agree" id="agree" style="height: 40%;"> I Agree
+    </form>
+</body>
+</html>
